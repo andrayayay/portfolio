@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Andraya Mae Smith</title>
+    <!-- reset.css -->
+    <link rel="stylesheet" type="text/css" href="./assets/style/reset.css">
     <!-- style.css -->
     <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
     <!-- media queries -->
@@ -16,40 +18,39 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark site-navbar-target bg-dark navbar-light" id="navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Andraya Mae Smith</a>
-        <a class="navbar-brand">Web Designer & Developer</a>
+        <!-- <a class="navbar-brand" href="index.html">AMS</a> -->
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
         
     <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav nav ml-auto">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-            <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-            <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-            <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+            <li class="nav-item"><a href="#about-section" class="nav-link"><span> About </span></a></li>
+            <li class="nav-item"><a href="#skills-section" class="nav-link"><span> Skills</span></a></li>
+            <li class="nav-item"><a href="#projects-section" class="nav-link"><span> Projects</span></a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link"><span> Contact</span></a></li>
         </ul>
     </div>
 </div>
 </nav>
 
 <section id="home-section">
-    <div class="container">
+    <div class="container-fluid" id="home">
         <div class="row">
-            <div class="me"><img src="./assets/images/selfie.jpg" alt="selfie" style="height:300px;"></div>
-                <div class="text">
-                    <span class="subheading">Hello</span>
-                        <h1 class="mb-4 mt-3">I'm <span>Andraya Smith</span></h1>
-                        <h2 class="mb-4">A Web Designer & Developer</h2>
-                    </div>
+            <div class="col-md-12">
+                <img class='img-fluid w-100' src="./assets/images/sunset.jpg" alt="sunset" />
+                <h1 class="top-leftest">Andraya Mae Smith</h1>
+                <div class="top-left"”>Web Designer and Developer</div>
                 </div>
             </div>
         </div>
-    </section>
-        
+    </div>
+</div>
+</section>
+              
 
 <section id="about-section">
     <div class="container">
@@ -65,7 +66,7 @@
                 
                 <p class="fourth_sent text-center">I am flexible and adaptable to all work enviornments.</p>   
                 
-                <p class="fifth_sent text-center">I am an excellent communicator. I know how to present your work and tailor the delivery to your audience, whether a crowd or one on one.</p>   
+                <p class="fifth_sent text-center">I am an excellent communicator. I know how to present my work and engage with my audience, whether it's crowd or one on one.</p>   
             </div>
         </div>
     </div>
@@ -104,7 +105,7 @@
 
         <div class="row">
                 <div class="col-md-6">
-                        <div class="icon text-center"><i class="fab fa-node-js"></i> WEB DEVELOPMENT</div>
+                        <div class="icon text-center"><i class="fas fa-database"></i> WEB DEVELOPMENT</div>
                             <div class="media-body text-center">
                                 <p>I can clearly see the bigger picture when it comes to Web Design.</p>
                         </div>
@@ -199,7 +200,6 @@
       
         <div class="col-md-6">
             <div><img src="./assets/images/hairflip.JPG" alt="hairflip" style="height:535px;"></div>
-                <!-- <div class="img" style="background-image: url(./assets/images/hairflip.JPG); height: 540px"></div> -->
         </div>
     </div>
 </div>
@@ -210,12 +210,12 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-4">
-                <div class="ftco-footer-widget mb-4">
+                <div class="mb-4">
                     <h2 class="heading-2">Lets connect!</h2>
                     <!-- <p>How can I help and be beneficial to you or your company? I would love to help and be a part of the team!</p> -->
                     <ul class="footer-social">
-                        <li class="social"><a href="https://github.com/andrayayay" target="_blank"><span class="fa fa-stack fa-3x"><i class="fab fa-github" id="github"></i></span></a></li>
-                        <li class="social"><a href="https://www.linkedin.com/in/andrayamaesmith/" target="_blank"><span class="fa fa-stack fa-3x"><i class="fab fa-linkedin" id="linkedin"></i></span></a></li></ul>
+                        <li class="social"><a href="https://github.com/andrayayay" target="_blank"><span class="fa fa-stack fa-2x"><i class="fab fa-github" id="github"></i></span></a></li>
+                        <li class="social"><a href="https://www.linkedin.com/in/andrayamaesmith/" target="_blank"><span class="fa fa-stack fa-2x"><i class="fab fa-linkedin" id="linkedin"></i></span></a></li></ul>
                     </ul>
             </div>
         </div>
@@ -224,11 +224,11 @@
             <div class="footer-services">
                 <h2 class="heading-2">Services</h2>
                     <ul class="list-unstyled">
-                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Javascript Development</a></li>
-                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Marketing</a></li>
-                      <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Project Managment</a></li>
+                      <li><span><i class="fas fa-magic"></i></span>  Web Design</li>
+                      <li><span><i class="fas fa-database"></i></span>  Web Development</li>
+                      <li><span><i class="fab fa-js-square"></i></span>  Javascript Development</li>
+                      <li><span><i class="fas fa-lightbulb"></i></span>  Marketing</li>
+                      <li><span><i class="fas fa-tasks"></i></span>  Project Management</li>
                     </ul>
             </div>
         </div>
@@ -236,18 +236,16 @@
         <div class="col-md-4">
             <div class="footer-questions">
                 <h2 class="heading-2">Have a Question?</h2>
-                    <h6>I will respond to your email within 48 hours!</h6>
-                    <li><a href="mailto:andrayayay@gmail.com"> 
-                        <span class="fa fa-stack fa-3x">
-                            <i class="far fa-envelope"></i>
-                                </span></a></li>
-    
-                  
-                    </div>
+                        <a href="mailto:andrayayay@gmail.com">
+                                <span class="fa fa-stack fa-2x">
+                                    <i class="far fa-envelope"></i>
+                                </span> Email Me!
+                        </a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+
 
 <div class="row">
     <div class="col-md-12 text-center">
@@ -257,10 +255,19 @@
     </div>
 </footer>
 
-<!-- boostrap javascript -->
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+<!-- jQuery CDN - Slim version (=without AJAX) -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- My Javascript link -->
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
 
 </body>
 </html>

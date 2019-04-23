@@ -1,0 +1,57 @@
+#home{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    font-size: 120%;
+    text-shadow: 2px 2px 5px #777;
+    font-weight: 600;
+}
+.top-leftest {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    text-shadow: 2px 2px 5px #777;
+    font-weight: 500;
+  }
+  
+  
+/* Top left text */
+/* .top-left {
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-weight: 600;
+    font-size: 160%;
+    text-shadow: 2px 2px 5px #555;
+  }
+   */
+  
+
+/* Footer */
+footer{
+    background-color: rgb(2, 201, 201);
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Footer links */
+footer a {
+    display: block;
+    color:white;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px grey;
+  }
+  
+/* Footer links on mouse-over */
+footer a:hover {
+    color: blueviolet;
+  }
