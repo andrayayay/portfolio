@@ -56,17 +56,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="mb-4 text-center" style="font-size: 34px; text-transform: capitalize;">Let me share a little about myself</h2>
-                <p class="first_sent text-center">The reason I enjoy web development more than just a career choice, but as a hobby, is because it allows me to use both sides of my brain. 
+                <h2 class="mb-4 text-center" id= "share" style="font-size: 34px; text-transform: capitalize;">Let me share a little about myself</h2>
+
+                <p class="about-me text-center" id="first_sent">The reason I enjoy web development more than just a career choice, but as a hobby, is because it allows me to use both sides of my brain. 
                         It has allowed me to do is consider problems or tasks with analysis and then accomplish them with creativity. </p>
                             
-                <p class="second_sent text-center">I am deeply curious about technology and the world we live in.</p>   
+                <p class="about-me text-center" id="second_sent">I am an excellent communicator. I know how to present my work and engage with my audience, whether it's crowd or one on one.</p>   
                 
-                <p class="third_sent text-center"> I am thick skinned. I always courageously open mine and my team's projects to feedback and critque. Ultimately it will only help me grow as a developer.</p>   
+                <p class="about-me text-center" id="third_sent"> I am thick skinned. I always courageously open my work to feedback and critque. Ultimately it will only help me grow as a developer.</p>   
                 
-                <p class="fourth_sent text-center">I am flexible and adaptable to all work enviornments.</p>   
+                <p class="about-me text-center" id="fourth_sent">I am flexible and adaptable to all work enviornments.</p>   
                 
-                <p class="fifth_sent text-center">I am an excellent communicator. I know how to present my work and engage with my audience, whether it's crowd or one on one.</p>   
+                <p class="about-me text-center" id="fifth_sent">I am deeply curious about technology and the world we live in.</p>   
             </div>
         </div>
     </div>
@@ -82,11 +83,11 @@
 <section id="skills-section">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="text-center">Here's what I love to do!</h2>
+            <h2 class="text-center" id="love">Here's what I love to do!</h2>
         </div>
     </div>
 
-        <div class="row">
+        <div class="row" id="skills">
             <div class="col-md-6">
                 <div class="icon text-center"><i class="fas fa-magic"></i> WEB DESIGN</div>
                     <div class="media-body text-center">
@@ -103,7 +104,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="skills">
                 <div class="col-md-6">
                         <div class="icon text-center"><i class="fas fa-database"></i> WEB DEVELOPMENT</div>
                             <div class="media-body text-center">
@@ -125,7 +126,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center">Accomplishments</h2>
+                <h2 class="text-center" id="accomplish">Accomplishments</h2>
             </div>
         </div>
 
@@ -172,8 +173,8 @@
     <div class="container">
         <div class="row">
                 <div class="col-md-12">
-                    <h2 class="mb-4 text-center">Reach out to say hello!</h2>
-                        <p class="text-center">I am currently seeking new job and project opportunities.</p>
+                    <h2 class="mb-4 text-center" id="reach">Reach out to say hello!</h2>
+                        <p class="text-center" id="seeking">I am currently seeking new job and project opportunities.</p>
                 </div>
             </div>
       
@@ -256,7 +257,7 @@
 </footer>
 
 <!-- Return to Top -->
-<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+<div onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></div>
 
 <!-- jQuery CDN - Slim version (=without AJAX) -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
