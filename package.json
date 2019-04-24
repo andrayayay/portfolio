@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Andraya's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrayayay/portfolio.git"
+  },
+  "author": "Andraya Mae Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrayayay/portfolio/issues"
+  },
+  "homepage": "https://github.com/andrayayay/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
